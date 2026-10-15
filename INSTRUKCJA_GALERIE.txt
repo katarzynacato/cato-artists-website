@@ -1,0 +1,1 @@
+PANEL: app.pagescms.org -> wybierz artystę -> GALERIA ZDJĘĆ -> Dodaj element -> wybierz zdjęcie. FILMY -> Dodaj element -> tytuł i link YouTube -> Save. Wgrywając aktualizację do GitHuba pamiętaj o ukrytym pliku .pages.yml. Nie przesyłaj ZIP jako pliku repozytorium.

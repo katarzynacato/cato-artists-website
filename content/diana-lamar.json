@@ -66,5 +66,9 @@
   "stage_video_3": "",
   "stage_video_title_3": "",
   "stage_video_4": "",
-  "stage_video_title_4": ""
+  "stage_video_title_4": "",
+  "gallery_photos": [
+    "images/diana-lamar/stage-1.jpg"
+  ],
+  "gallery_videos": []
 }
