@@ -1,0 +1,58 @@
+
+media:
+  input: images
+  output: /images
+
+content:
+  - name: artists
+    label: Artyści CATO ARTISTS
+    type: collection
+    path: content
+    filename: "{primary}.json"
+    format: json
+    subfolders: false
+    view:
+      fields: [text_1]
+    fields:
+      - name: text_1
+        label: Nazwa / nagłówek
+        type: string
+      - name: text_2
+        label: Sekcja
+        type: string
+      - name: text_3
+        label: Tekst 1
+        type: text
+      - name: text_4
+        label: Tekst 2
+        type: text
+      - name: text_5
+        label: Tekst 3
+        type: text
+      - name: text_6
+        label: Tekst 4
+        type: text
+      - name: text_7
+        label: Tekst 5
+        type: text
+      - name: text_8
+        label: Tekst 6
+        type: text
+      - name: text_9
+        label: Tekst 7
+        type: text
+      - name: text_10
+        label: Kalendarz
+        type: text
+      - name: text_11
+        label: Informacje o terminach
+        type: text
+      - name: text_12
+        label: Wideo
+        type: text
+      - name: text_13
+        label: Tytuł nagrania
+        type: text
+      - name: text_14
+        label: Link / opis nagrania
+        type: text
