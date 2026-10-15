@@ -1,0 +1,3 @@
+CATO ARTISTS — pełna paczka z sekcją LINKS i edycją w Pages CMS.
+Diana: Personal Website, Operabase, Instagram. Pozostali artyści: sekcja LINKS pojawia się po dodaniu pierwszego linku w panelu.
+WAŻNE: wgraj też ukryty plik .pages.yml (w Finderze Cmd+Shift+kropka). Bez niego nie będzie pola LINKS w Pages CMS.

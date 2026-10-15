@@ -68,5 +68,19 @@
     }
   ],
   "calendar_events": [],
-  "press_reviews": []
+  "press_reviews": [],
+  "artist_links": [
+    {
+      "label": "FACEBOOK",
+      "url": "https://www.facebook.com/Stanislav-Kuflyuk-Baritone-103612937678642/"
+    },
+    {
+      "label": "INSTAGRAM",
+      "url": "https://www.instagram.com/kuflyuk?igsi=cGcyN2szNm9rdjFx"
+    },
+    {
+      "label": "OPERABASE",
+      "url": "https://www.operabase.com/artists/stanislav-kuflyuk-18565/en"
+    }
+  ]
 }
