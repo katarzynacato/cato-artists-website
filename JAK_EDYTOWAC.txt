@@ -1,0 +1,6 @@
+CATO ARTISTS — edycja
+1. Dodaj zawartość tego folderu do repozytorium GitHub katarzynacato/cato-artists-website.
+2. W Pages CMS wybierz projekt i przejdź do Config. Konfiguracja jest w pliku .pages.yml.
+3. W menu panelu wybierz Strona główna lub imię artysty. Edytuj pola i zapisz.
+4. Cloudflare Pages automatycznie opublikuje zapisane zmiany.
+UWAGA: to edycja istniejących pól; dodawanie dowolnej liczby nowych wierszy kalendarza wymaga osobnego rozwiązania.

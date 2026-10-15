@@ -23,11 +23,6 @@
   "text_22": "06",
   "text_23": "Bass",
   "text_24": "↗",
-  "text_25": "02 / OUR PHILOSOPHY",
-  "text_26": "everything.",
-  "text_27": "At CATO ARTISTS, we believe exceptional opera begins with singular voices and compelling artistic personalities.",
-  "text_28": "We champion a carefully selected group of international singers, connecting talent with the stages and creative teams where their artistry can flourish.",
-  "text_29": "↗",
   "text_30": "03 / GET IN TOUCH",
   "text_31": "art happen.",
   "text_32": "For artistic collaborations, engagements and representation enquiries.",
@@ -40,5 +35,11 @@
   "image_5": "/images/benedetta-marchesi/portrait-2.jpg",
   "image_6": "/images/sebastian-rutkowski/portrait-2.jpg",
   "link_14": "mailto:Katarzyna.cato@gmail.com",
-  "link_15": "tel:+48506517525"
+  "link_15": "tel:+48506517525",
+  "home_kicker": "OPERA ARTIST MANAGEMENT",
+  "home_hero_start": "Voices that",
+  "home_hero_end": "the world.",
+  "home_subtitle_a": "Exceptional voices. Distinctive artistry.",
+  "home_subtitle_b": "A curated international roster for the operatic stage.",
+  "home_roster_subtitle": "Individual voices, common commitment to artistic excellence"
 }

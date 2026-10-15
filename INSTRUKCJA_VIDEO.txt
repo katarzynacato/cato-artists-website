@@ -1,0 +1,1 @@
+Poprawione odtwarzacze i linki YouTube: Jolana, Stanislav, Sebastian. Zastąp pliki repozytorium zawartością tego folderu, zatwierdź zmiany w main. Filmy nadal mogą mieć ograniczenia osadzania ustawione przez YouTube.

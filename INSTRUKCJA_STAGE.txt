@@ -1,0 +1,6 @@
+CATO ARTISTS — nowa galeria Diany Lamar
+1. Prześlij całą rozpakowaną zawartość do repozytorium GitHub cato-artists-website, gałąź main, zachowując folder images.
+2. W Pages CMS otwórz Diana Lamar i przewiń na koniec formularza.
+3. Pola „Zdjęcie sceniczne 1–8” umożliwiają dodawanie i podmianę zdjęć.
+4. Pola „Film sceniczny 1–4” przyjmują adresy YouTube; obok wpisz podpis filmu.
+5. Zapisz. Cloudflare automatycznie opublikuje zmiany.
