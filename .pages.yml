@@ -102,3 +102,51 @@ content:
         type: text
       - name: text_4
         label:
+
+  - name: benedetta
+    label: Benedetta Marchesi
+    type: file
+    path: content/benedetta-marchesi.json
+    format: json
+    fields:
+      - name: text_1
+        label: Imię i nazwisko
+        type: string
+      - name: text_3
+        label: Biografia - akapit 1
+        type: text
+      - name: text_4
+        label: Biografia - akapit 2
+        type: text
+
+  - name: sebastian
+    label: Sebastian Rutkowski
+    type: file
+    path: content/sebastian-rutkowski.json
+    format: json
+    fields:
+      - name: text_1
+        label: Imię i nazwisko
+        type: string
+      - name: text_3
+        label: Biografia - akapit 1
+        type: text
+      - name: text_4
+        label: Biografia - akapit 2
+        type: text
+
+  - name: stanislav
+    label: Stanislav Kuflyuk
+    type: file
+    path: content/stanislav-kuflyuk.json
+    format: json
+    fields:
+      - name: text_1
+        label: Imię i nazwisko
+        type: string
+      - name: text_3
+        label: Biografia - akapit 1
+        type: text
+      - name: text_4
+        label: Biografia - akapit 2
+        type: text
