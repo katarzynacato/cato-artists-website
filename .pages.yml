@@ -14,22 +14,22 @@ content:
         label: Tekst nad głównym tytułem
         type: string
       - name: home_hero_start
-        label: Główny tytuł - pierwsza część
+        label: Tytuł główny - początek
         type: string
       - name: text_1
-        label: Główny tytuł - słowo move
+        label: Tytuł główny - move
         type: string
       - name: home_hero_end
-        label: Główny tytuł - ostatnia część
+        label: Tytuł główny - zakończenie
         type: string
       - name: home_subtitle_a
-        label: Opis pod tytułem - pierwsza linia
+        label: Podtytuł - linia pierwsza
         type: string
       - name: home_subtitle_b
-        label: Opis pod tytułem - druga linia
+        label: Podtytuł - linia druga
         type: string
       - name: home_roster_subtitle
-        label: Hasło nad listą artystów
+        label: Hasło przy liście artystów
         type: text
 
   - name: diana
@@ -56,15 +56,21 @@ content:
       - name: text_7
         label: Biografia - akapit 5
         type: text
-      - name: video_1
-        label: Film 1 - adres
-        type: string
-      - name: video_2
-        label: Film 2 - adres
-        type: string
-      - name: video_3
-        label: Film 3 - adres
-        type: string
+      - name: gallery_photos
+        label: GALERIA ZDJĘĆ - Dodaj zdjęcie
+        type: image
+        list: true
+      - name: gallery_videos
+        label: FILMY - Dodaj film
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Tytuł filmu
+            type: string
+          - name: url
+            label: Link YouTube
+            type: string
 
   - name: jolana
     label: Jolana Slavíková
@@ -81,12 +87,30 @@ content:
       - name: text_4
         label: Biografia - akapit 2
         type: text
-      - name: video_1
-        label: Film 1 - adres
-        type: string
-      - name: video_2
-        label: Film 2 - adres
-        type: string
+      - name: text_5
+        label: Biografia - akapit 3
+        type: text
+      - name: text_6
+        label: Biografia - akapit 4
+        type: text
+      - name: text_7
+        label: Biografia - akapit 5
+        type: text
+      - name: gallery_photos
+        label: GALERIA ZDJĘĆ - Dodaj zdjęcie
+        type: image
+        list: true
+      - name: gallery_videos
+        label: FILMY - Dodaj film
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Tytuł filmu
+            type: string
+          - name: url
+            label: Link YouTube
+            type: string
 
   - name: reinaldo
     label: Reinaldo Droz
@@ -101,39 +125,32 @@ content:
         label: Biografia - akapit 1
         type: text
       - name: text_4
-        label:
-
-  - name: benedetta
-    label: Benedetta Marchesi
-    type: file
-    path: content/benedetta-marchesi.json
-    format: json
-    fields:
-      - name: text_1
-        label: Imię i nazwisko
-        type: string
-      - name: text_3
-        label: Biografia - akapit 1
-        type: text
-      - name: text_4
         label: Biografia - akapit 2
         type: text
-
-  - name: sebastian
-    label: Sebastian Rutkowski
-    type: file
-    path: content/sebastian-rutkowski.json
-    format: json
-    fields:
-      - name: text_1
-        label: Imię i nazwisko
-        type: string
-      - name: text_3
-        label: Biografia - akapit 1
+      - name: text_5
+        label: Biografia - akapit 3
         type: text
-      - name: text_4
-        label: Biografia - akapit 2
+      - name: text_6
+        label: Biografia - akapit 4
         type: text
+      - name: text_7
+        label: Biografia - akapit 5
+        type: text
+      - name: gallery_photos
+        label: GALERIA ZDJĘĆ - Dodaj zdjęcie
+        type: image
+        list: true
+      - name: gallery_videos
+        label: FILMY - Dodaj film
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Tytuł filmu
+            type: string
+          - name: url
+            label: Link YouTube
+            type: string
 
   - name: stanislav
     label: Stanislav Kuflyuk
@@ -150,3 +167,107 @@ content:
       - name: text_4
         label: Biografia - akapit 2
         type: text
+      - name: text_5
+        label: Biografia - akapit 3
+        type: text
+      - name: text_6
+        label: Biografia - akapit 4
+        type: text
+      - name: text_7
+        label: Biografia - akapit 5
+        type: text
+      - name: gallery_photos
+        label: GALERIA ZDJĘĆ - Dodaj zdjęcie
+        type: image
+        list: true
+      - name: gallery_videos
+        label: FILMY - Dodaj film
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Tytuł filmu
+            type: string
+          - name: url
+            label: Link YouTube
+            type: string
+
+  - name: benedetta
+    label: Benedetta Marchesi
+    type: file
+    path: content/benedetta-marchesi.json
+    format: json
+    fields:
+      - name: text_1
+        label: Imię i nazwisko
+        type: string
+      - name: text_3
+        label: Biografia - akapit 1
+        type: text
+      - name: text_4
+        label: Biografia - akapit 2
+        type: text
+      - name: text_5
+        label: Biografia - akapit 3
+        type: text
+      - name: text_6
+        label: Biografia - akapit 4
+        type: text
+      - name: text_7
+        label: Biografia - akapit 5
+        type: text
+      - name: gallery_photos
+        label: GALERIA ZDJĘĆ - Dodaj zdjęcie
+        type: image
+        list: true
+      - name: gallery_videos
+        label: FILMY - Dodaj film
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Tytuł filmu
+            type: string
+          - name: url
+            label: Link YouTube
+            type: string
+
+  - name: sebastian
+    label: Sebastian Rutkowski
+    type: file
+    path: content/sebastian-rutkowski.json
+    format: json
+    fields:
+      - name: text_1
+        label: Imię i nazwisko
+        type: string
+      - name: text_3
+        label: Biografia - akapit 1
+        type: text
+      - name: text_4
+        label: Biografia - akapit 2
+        type: text
+      - name: text_5
+        label: Biografia - akapit 3
+        type: text
+      - name: text_6
+        label: Biografia - akapit 4
+        type: text
+      - name: text_7
+        label: Biografia - akapit 5
+        type: text
+      - name: gallery_photos
+        label: GALERIA ZDJĘĆ - Dodaj zdjęcie
+        type: image
+        list: true
+      - name: gallery_videos
+        label: FILMY - Dodaj film
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Tytuł filmu
+            type: string
+          - name: url
+            label: Link YouTube
+            type: string
