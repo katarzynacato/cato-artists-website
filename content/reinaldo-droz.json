@@ -26,5 +26,24 @@
   "link_10": "https://youtu.be/zhmafowdmms",
   "link_11": "https://youtu.be/7G3ofdIYBiw",
   "gallery_photos": [],
-  "gallery_videos": []
+  "gallery_videos": [
+    {
+      "title": "Performance video 1",
+      "url": "https://youtu.be/AB7EVL6ervk"
+    },
+    {
+      "title": "Performance video 2",
+      "url": "https://youtu.be/vThAy58SJKw"
+    },
+    {
+      "title": "Performance video 3",
+      "url": "https://youtu.be/zhmafowdmms"
+    },
+    {
+      "title": "Performance video 4",
+      "url": "https://youtu.be/7G3ofdIYBiw"
+    }
+  ],
+  "calendar_events": [],
+  "press_reviews": []
 }

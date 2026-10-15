@@ -45,5 +45,28 @@
   "link_23": "https://www.instagram.com/kuflyuk?igsi=cGcyN2szNm9rdjFx",
   "link_24": "https://www.operabase.com/artists/stanislav-kuflyuk-18565/en",
   "gallery_photos": [],
-  "gallery_videos": []
+  "gallery_videos": [
+    {
+      "title": "Tchaikovsky — The Queen of Spades · Yeletsky · “Ya vas lyublyu”",
+      "url": "https://www.youtube.com/watch?v=FQvxWTxk2UQ"
+    },
+    {
+      "title": "Tchaikovsky — Eugene Onegin · “Vy mne pisali”",
+      "url": "https://www.youtube.com/watch?v=AC0zSGCEsuE"
+    },
+    {
+      "title": "Verdi — La traviata · Germont’s aria",
+      "url": "https://www.youtube.com/watch?v=KIdi8-n2yTU"
+    },
+    {
+      "title": "Verdi — Luisa Miller · Miller · “Sacra è la scelta… Ah! fu giusto il mio sospetto”",
+      "url": "https://www.youtube.com/watch?v=QejqkB6tQL0"
+    },
+    {
+      "title": "Verdi — Otello · Iago · “Credo in un Dio crudel”",
+      "url": "https://www.youtube.com/watch?v=mQx0VHIDNa0"
+    }
+  ],
+  "calendar_events": [],
+  "press_reviews": []
 }

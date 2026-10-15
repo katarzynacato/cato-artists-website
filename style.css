@@ -67,3 +67,48 @@
 .artist-gallery-section .gallery-video-item p{margin:10px 0 5px}
 .artist-gallery-section .gallery-video-item a{color:#c8a76a}
 @media(max-width:650px){.artist-gallery-section .stage-slide{flex-basis:78%}}
+
+/* CMS repeatable sections */
+[hidden] { display: none !important; }
+#cms-calendar-list { margin-top: 18px; }
+#cms-reviews-list blockquote { max-width: 100%; }
+#artist-gallery .gallery-video-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-top:24px; }
+#artist-gallery .gallery-video-item iframe { width:100%; aspect-ratio:16/9; border:0; display:block; }
+#artist-gallery .gallery-video-item p { margin:10px 0 4px; }
+
+
+/* Final desktop refinements requested by CATO ARTISTS.
+   Keep mobile styles unchanged. */
+@media (min-width: 900px) {
+  /* CMS-generated calendar/review lists align with the same inner column as .wrap. */
+  #cms-calendar-list,
+  #cms-reviews-list {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  #cms-calendar-list { margin-top: 18px; padding-bottom: 45px; }
+  #cms-calendar-list table.calendar { width: 100%; table-layout: auto; }
+
+  /* Slightly larger video players on desktop only. */
+  #video .tiles,
+  .stage-video-grid,
+  #artist-gallery .gallery-video-grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr));
+    gap: 24px;
+  }
+  #video .video-card iframe,
+  .stage-video-item iframe,
+  #artist-gallery .gallery-video-item iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: block;
+  }
+}
+
+/* Use the same text alignment as the existing artist-page press styling. */
+#cms-reviews-list blockquote { text-align: inherit; }
+#cms-reviews-list blockquote p { text-align: inherit; }
