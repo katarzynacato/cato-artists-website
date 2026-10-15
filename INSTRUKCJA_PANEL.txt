@@ -1,0 +1,9 @@
+CATO ARTISTS — Pages CMS
+
+1. Prześlij ZAWARTOŚĆ tego folderu do repozytorium GitHub, zastępując istniejące pliki.
+2. Otwórz https://app.pagescms.org i zaloguj się przez GitHub.
+3. Zezwól aplikacji Pages CMS na dostęp tylko do repozytorium cato-artists-website.
+4. Wybierz repozytorium i gałąź main.
+5. Edytuj pola w menu po lewej i zapisz. Cloudflare automatycznie opublikuje zmianę.
+
+UWAGA: ta wersja obsługuje istniejące teksty, zdjęcia, adresy iframe i wybrane linki. Nie obsługuje jeszcze tworzenia nowych bloków kalendarza ani zmiany układu strony.
