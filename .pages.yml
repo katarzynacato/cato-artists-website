@@ -4,55 +4,101 @@ media:
   output: /images
 
 content:
-  - name: artists
-    label: Artyści CATO ARTISTS
-    type: collection
-    path: content
-    filename: "{primary}.json"
+  - name: homepage
+    label: Strona główna
+    type: file
+    path: content/index.json
     format: json
-    subfolders: false
-    view:
-      fields: [text_1]
+    fields:
+      - name: home_kicker
+        label: Tekst nad głównym tytułem
+        type: string
+      - name: home_hero_start
+        label: Główny tytuł - pierwsza część
+        type: string
+      - name: text_1
+        label: Główny tytuł - słowo move
+        type: string
+      - name: home_hero_end
+        label: Główny tytuł - ostatnia część
+        type: string
+      - name: home_subtitle_a
+        label: Opis pod tytułem - pierwsza linia
+        type: string
+      - name: home_subtitle_b
+        label: Opis pod tytułem - druga linia
+        type: string
+      - name: home_roster_subtitle
+        label: Hasło nad listą artystów
+        type: text
+
+  - name: diana
+    label: Diana Lamar
+    type: file
+    path: content/diana-lamar.json
+    format: json
     fields:
       - name: text_1
-        label: Nazwa / nagłówek
-        type: string
-      - name: text_2
-        label: Sekcja
+        label: Imię i nazwisko
         type: string
       - name: text_3
-        label: Tekst 1
+        label: Biografia - akapit 1
         type: text
       - name: text_4
-        label: Tekst 2
+        label: Biografia - akapit 2
         type: text
       - name: text_5
-        label: Tekst 3
+        label: Biografia - akapit 3
         type: text
       - name: text_6
-        label: Tekst 4
+        label: Biografia - akapit 4
         type: text
       - name: text_7
-        label: Tekst 5
+        label: Biografia - akapit 5
         type: text
-      - name: text_8
-        label: Tekst 6
+      - name: video_1
+        label: Film 1 - adres
+        type: string
+      - name: video_2
+        label: Film 2 - adres
+        type: string
+      - name: video_3
+        label: Film 3 - adres
+        type: string
+
+  - name: jolana
+    label: Jolana Slavíková
+    type: file
+    path: content/jolana-slavikova.json
+    format: json
+    fields:
+      - name: text_1
+        label: Imię i nazwisko
+        type: string
+      - name: text_3
+        label: Biografia - akapit 1
         type: text
-      - name: text_9
-        label: Tekst 7
+      - name: text_4
+        label: Biografia - akapit 2
         type: text
-      - name: text_10
-        label: Kalendarz
+      - name: video_1
+        label: Film 1 - adres
+        type: string
+      - name: video_2
+        label: Film 2 - adres
+        type: string
+
+  - name: reinaldo
+    label: Reinaldo Droz
+    type: file
+    path: content/reinaldo-droz.json
+    format: json
+    fields:
+      - name: text_1
+        label: Imię i nazwisko
+        type: string
+      - name: text_3
+        label: Biografia - akapit 1
         type: text
-      - name: text_11
-        label: Informacje o terminach
-        type: text
-      - name: text_12
-        label: Wideo
-        type: text
-      - name: text_13
-        label: Tytuł nagrania
-        type: text
-      - name: text_14
-        label: Link / opis nagrania
-        type: text
+      - name: text_4
+        label:
