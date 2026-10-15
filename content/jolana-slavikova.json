@@ -79,5 +79,94 @@
   "link_27": "https://operaplus.cz/adam-a-eva-ze-soucasnosti-liberecke-divadlo-prijemne-prekvapilo/",
   "link_28": "https://maestro.net.pl/index.php/10993-emocje-i-dramat-w-carmen-calixto-bieito?start=3",
   "gallery_photos": [],
-  "gallery_videos": []
+  "gallery_videos": [
+    {
+      "title": "Jolana Slavíková — Performance video 1",
+      "url": "https://youtu.be/fVqjYcy-iHY"
+    },
+    {
+      "title": "Jolana Slavíková — Performance video 2",
+      "url": "https://youtu.be/c-WXAKlvwgc"
+    },
+    {
+      "title": "Jolana Slavíková — Performance video 3",
+      "url": "https://youtu.be/WvOhZS_BaUc"
+    },
+    {
+      "title": "Jolana Slavíková — Performance video 4",
+      "url": "https://youtu.be/h0_IAQuWDHk"
+    },
+    {
+      "title": "Jolana Slavíková — Performance video 5",
+      "url": "https://youtu.be/OtL3auNiX40"
+    },
+    {
+      "title": "Jolana Slavíková — Performance video 6",
+      "url": "https://youtu.be/B9PgUpN9tE0"
+    }
+  ],
+  "calendar_events": [
+    {
+      "date": "September 2026",
+      "theatre": "F. X. Šalda Theatre, Liberec",
+      "composer": "",
+      "production": "Le nozze di Figaro",
+      "role": "Cherubino",
+      "url": ""
+    },
+    {
+      "date": "October 2026",
+      "theatre": "F. X. Šalda Theatre, Liberec",
+      "composer": "",
+      "production": "Le nozze di Figaro",
+      "role": "Cherubino",
+      "url": ""
+    },
+    {
+      "date": "November 2026",
+      "theatre": "Hungarian State Opera, Budapest",
+      "composer": "",
+      "production": "Carmen",
+      "role": "Carmen",
+      "url": ""
+    }
+  ],
+  "press_reviews": [
+    {
+      "quote": "“Jolana Slavíková, with her richly colored and resonant mezzo-soprano, captured Suzuki’s deep empathy for her mistress.”",
+      "author": "OPERAPLUS ↗",
+      "publication": "OPERAPLUS ↗",
+      "url": "https://operaplus.cz/butterfly-tentokrat-z-budejovic/"
+    },
+    {
+      "quote": "“The mezzo-soprano Jolana Slavíková currently performs on several Czech opera stages, and her performances are always unmissable. This was the case once again. In the role of Suzuki, she made use of her beautifully colored voice, reliably even across all registers. Dramatically, she also brought convincing substance to this not particularly rewarding role.”",
+      "author": "KLASIKAPLUS ↗",
+      "publication": "KLASIKAPLUS ↗",
+      "url": "https://www.klasikaplus.cz/jihoceska-madama-butterfly-jako-scenicky-pelmel/"
+    },
+    {
+      "quote": "“A pleasant surprise, on the other hand, was Jolana Slavíková’s performance in the role of Olga. She impressed with a resonant mezzo-soprano of an interesting color as well as natural stage presence, creating a convincing portrayal of Tatyana’s somewhat frivolous sister.”",
+      "author": "KLASIKAPLUS ↗",
+      "publication": "KLASIKAPLUS ↗",
+      "url": "https://www.klasikaplus.cz/pokus-o-zvecneni-opery-evzen-onegin-v-liberci/"
+    },
+    {
+      "quote": "“Both vocally and dramatically, Jolana Slavíková impressed as the carefree coquette Olga.”",
+      "author": "NOVINKY ↗",
+      "publication": "NOVINKY ↗",
+      "url": "https://www.novinky.cz/clanek/kultura-divadlo-recenze-onegin-spis-rozpacity-nez-vasnivy-40500265"
+    },
+    {
+      "quote": "“The mezzo-soprano Jolana Slavíková, a young yet already fully formed stage artist who performs and is better known abroad than on Czech stages. In this role written for a higher mezzo-soprano, she brought a disciplined yet distinctive contribution, marked by both vocal and especially dramatic temperament. The singer coped well with all the challenges of coloratura singing. Foreign vocal training often overcomes long-standing domestic barriers in operatic stagecraft, and Slavíková’s sensitive yet highly vivid performance is proof of this.”",
+      "author": "OPERAPLUS ↗",
+      "publication": "OPERAPLUS ↗",
+      "url": "https://operaplus.cz/adam-a-eva-ze-soucasnosti-liberecke-divadlo-prijemne-prekvapilo/"
+    },
+    {
+      "quote": "“Particular recognition should go to the three leading performers, who created profound and emotionally compelling portrayals. Jolana Slavíková, in the role of Carmen, deserves special praise for a performance that lingers in the memory long after the curtain falls. Her interpretation is not only filled with seductive passion, but also remarkably rich in emotional depth. Slavíková vividly conveys the complexity of her character’s inner conflict, torn between the desire for love and the need for freedom. Her strong stage presence and intense expressiveness make her Carmen a fascinating and hypnotic figure, while at the same time commanding respect. It is a role marked by strength and courage, giving Carmen an exceptional emotional intensity and drawing the audience completely into her story.”",
+      "author": "MAESTRO ↗",
+      "publication": "MAESTRO ↗",
+      "url": "https://maestro.net.pl/index.php/10993-emocje-i-dramat-w-carmen-calixto-bieito?start=3"
+    }
+  ]
 }
