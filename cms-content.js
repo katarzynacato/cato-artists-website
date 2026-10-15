@@ -28,6 +28,27 @@
     }
 
 
+    // Artist links: editable repeatable list in Pages CMS.
+    const artistLinksBox = document.getElementById('cms-artist-links');
+    if (artistLinksBox) {
+      const artistLinks = Array.isArray(data.artist_links) ? data.artist_links : [];
+      const linksSection = artistLinksBox.closest('section');
+      for (const entry of artistLinks) {
+        const label = String(entry.label || '').trim();
+        const rawUrl = String(entry.url || '').trim();
+        if (!label || !rawUrl) continue;
+        try {
+          const parsed = new URL(rawUrl);
+          if (!['https:', 'http:'].includes(parsed.protocol)) continue;
+          const a = document.createElement('a');
+          a.href = parsed.href; a.target = '_blank'; a.rel = 'noopener noreferrer';
+          a.textContent = label + ' ↗';
+          artistLinksBox.append(a);
+        } catch (_) {}
+      }
+      if (linksSection) linksSection.hidden = !artistLinksBox.children.length;
+    }
+
     // Repeatable calendar entries and press reviews. These arrays are edited in Pages CMS.
     const calendarData = Array.isArray(data.calendar_events) ? data.calendar_events : [];
     const calendarBox = document.getElementById('cms-calendar-list');

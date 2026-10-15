@@ -112,3 +112,8 @@
 /* Use the same text alignment as the existing artist-page press styling. */
 #cms-reviews-list blockquote { text-align: inherit; }
 #cms-reviews-list blockquote p { text-align: inherit; }
+
+/* Artist links — consistent with existing CATO ARTISTS typography */
+.artist-links-grid{display:flex;flex-wrap:wrap;gap:14px 30px;align-items:center}
+.artist-links-grid a{color:#c8a76a;font-size:12px;font-weight:600;letter-spacing:.12em;text-decoration:none;text-transform:uppercase}
+.artist-links-grid a:hover{text-decoration:underline}
