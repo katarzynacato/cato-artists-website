@@ -27,6 +27,53 @@
       } catch (_) {}
     }
 
+
+    // Repeatable calendar entries and press reviews. These arrays are edited in Pages CMS.
+    const calendarData = Array.isArray(data.calendar_events) ? data.calendar_events : [];
+    const calendarBox = document.getElementById('cms-calendar-list');
+    if (calendarBox && calendarData.length) {
+      const oldTable = calendarBox.parentElement.querySelector('table.calendar');
+      if (oldTable) oldTable.hidden = true;
+      const oldNote = calendarBox.parentElement.querySelector('.muted[data-cms-text]');
+      if (oldNote) oldNote.hidden = true;
+      const table = document.createElement('table'); table.className = 'calendar';
+      table.innerHTML = '<thead><tr><th>Data / okres</th><th>Spektakl · rola</th><th>Teatr</th></tr></thead>';
+      const tbody = document.createElement('tbody');
+      for (const ev of calendarData) {
+        const tr = document.createElement('tr');
+        const date = document.createElement('td'); date.textContent = ev.date || '';
+        const production = document.createElement('td');
+        const title = document.createElement(ev.url ? 'a' : 'span');
+        title.textContent = [ev.production, ev.role].filter(Boolean).join(' · ');
+        if (ev.url) { title.href = ev.url; title.target = '_blank'; title.rel = 'noopener noreferrer'; }
+        production.append(title);
+        if (ev.composer) { const small = document.createElement('div'); small.className = 'muted'; small.textContent = ev.composer; production.append(small); }
+        const theatre = document.createElement('td'); theatre.textContent = ev.theatre || '';
+        tr.append(date, production, theatre); tbody.append(tr);
+      }
+      table.append(tbody); calendarBox.replaceChildren(table);
+    }
+    const reviewData = Array.isArray(data.press_reviews) ? data.press_reviews : [];
+    const reviewBox = document.getElementById('cms-reviews-list');
+    if (reviewBox && reviewData.length) {
+      const section = reviewBox.closest('section');
+      for (const node of section.querySelectorAll('blockquote, details')) node.hidden = true;
+      for (const review of reviewData) {
+        const quote = document.createElement('blockquote');
+        quote.style.cssText = 'margin:0 0 24px;padding:18px 22px;border-left:2px solid #b79a5b;background:rgba(183,154,91,.06)';
+        const p = document.createElement('p'); p.style.cssText = 'line-height:1.75;font-style:italic'; p.textContent = review.quote || '';
+        quote.append(p);
+        const label = [review.author, review.publication].filter(Boolean).join(' · ');
+        if (label) {
+          const a = document.createElement(review.url ? 'a' : 'span'); a.textContent = label;
+          a.style.cssText = 'color:#c8a76a;font-size:12px;letter-spacing:.12em';
+          if (review.url) { a.href = review.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+          quote.append(a);
+        }
+        reviewBox.append(quote);
+      }
+    }
+
     // Repeatable media fields from Pages CMS: every artist gets the same gallery.
     const gallery = document.getElementById('artist-gallery');
     if (gallery) {

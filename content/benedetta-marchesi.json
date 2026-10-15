@@ -43,5 +43,32 @@
   "link_13": "https://www.youtube.com/watch?v=DgiZcQC7Wjo",
   "link_14": "https://www.youtube.com/watch?v=24eoZLfMqOw",
   "gallery_photos": [],
-  "gallery_videos": []
+  "gallery_videos": [
+    {
+      "title": "Performance Video 1",
+      "url": "https://www.youtube.com/watch?v=Ofb8SBFbZrU"
+    },
+    {
+      "title": "Performance Video 2",
+      "url": "https://www.youtube.com/watch?v=Zg5YnvewwBA"
+    },
+    {
+      "title": "Performance Video 3",
+      "url": "https://www.youtube.com/watch?v=3W6LnbmYIo0"
+    },
+    {
+      "title": "Performance Video 4",
+      "url": "https://www.youtube.com/watch?v=o7xOXp3SbHE"
+    },
+    {
+      "title": "Performance Video 5",
+      "url": "https://www.youtube.com/watch?v=DgiZcQC7Wjo"
+    },
+    {
+      "title": "Performance Video 6",
+      "url": "https://www.youtube.com/watch?v=24eoZLfMqOw"
+    }
+  ],
+  "calendar_events": [],
+  "press_reviews": []
 }

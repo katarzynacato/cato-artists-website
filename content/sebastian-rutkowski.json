@@ -32,5 +32,28 @@
   "link_14": "https://www.youtube.com/watch?v=hjdDyIb9MJo",
   "link_17": "https://facebook.com/story.php?story_fbid=pfbid028rC7SYtfg7GNqi4Xw7yyNQRFmH5ojsxbitV424utZPc7PiaJ34Z1B2k1ZAv81tt2l&id=61587774221824",
   "gallery_photos": [],
-  "gallery_videos": []
+  "gallery_videos": [
+    {
+      "title": "Skołuba — The Haunted Manor (latest recording)",
+      "url": "https://www.youtube.com/watch?v=xnhZyTkHIqw"
+    },
+    {
+      "title": "Sarastro — The Magic Flute (piano accompaniment)",
+      "url": "https://www.youtube.com/watch?v=8Z3xJ9iTSy0"
+    },
+    {
+      "title": "Fiesco — Simon Boccanegra",
+      "url": "https://www.youtube.com/watch?v=gWG1RxxxUQU"
+    },
+    {
+      "title": "Skołuba — The Haunted Manor (orchestra)",
+      "url": "https://www.youtube.com/watch?v=vm2EQHI-58Y"
+    },
+    {
+      "title": "Sarastro — The Magic Flute (orchestra)",
+      "url": "https://www.youtube.com/watch?v=hjdDyIb9MJo"
+    }
+  ],
+  "calendar_events": [],
+  "press_reviews": []
 }
